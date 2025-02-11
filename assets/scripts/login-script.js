@@ -1,15 +1,15 @@
 /** @module Login-Script */
 /** 
-* Membuat variabel loginFormElement untuk tampilan form.
-* @constant {HTMLElement}
-*/
+ * Membuat variabel loginFormElement untuk tampilan form.
+ * @constant {HTMLElement}
+ */
 const loginFormElement = document.querySelector('#loginForm');
  
  
 /** 
-* Membuat variabel inputEmailElement untuk tampilan input email.
-* @constant {HTMLElement}
-*/
+ * Membuat variabel inputEmailElement untuk tampilan input email.
+ * @constant {HTMLElement}
+ */
 const inputEmailElement = document.querySelector('#inputEmail');
  
  
@@ -61,3 +61,5 @@ loginFormElement.addEventListener('submit', function(event) {
  
     /* Comment : Namun jika tidak sesuai maka akan menampilkan informasi bahwa input salah. */
     showPopUp();
+  }
+});
